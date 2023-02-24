@@ -1,5 +1,5 @@
 from main import User
 
-myusers = User.select()
-for user in myusers:
+my_users = User.select()
+for user in my_users:
     print(user.name, user.email, user.password)
